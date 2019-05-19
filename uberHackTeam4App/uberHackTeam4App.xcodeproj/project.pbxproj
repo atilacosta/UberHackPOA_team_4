@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B052162A62B0CD169A8D20E2 /* Pods_uberHackTeam4App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32FC7D9032BB56659CC4D88 /* Pods_uberHackTeam4App.framework */; };
+		C3B34DA72290F943009B14B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B34DA62290F943009B14B1 /* AppDelegate.swift */; };
+		C3B34DAC2290F943009B14B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B34DAA2290F943009B14B1 /* Main.storyboard */; };
+		C3B34DAE2290F944009B14B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3B34DAD2290F944009B14B1 /* Assets.xcassets */; };
+		C3B34DB12290F944009B14B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B34DAF2290F944009B14B1 /* LaunchScreen.storyboard */; };
+		C3B34DBC2290F944009B14B1 /* uberHackTeam4AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B34DBB2290F944009B14B1 /* uberHackTeam4AppTests.swift */; };
+		C3B34DC8229106D6009B14B1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B34DC7229106D6009B14B1 /* MapViewController.swift */; };
+		C3B34DCE229107F5009B14B1 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B34DCD229107F5009B14B1 /* ShopViewController.swift */; };
+		C3B34DD022910806009B14B1 /* DoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B34DCF22910806009B14B1 /* DoneViewController.swift */; };
+		C3B34DD622910B77009B14B1 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B34DD522910B77009B14B1 /* Enums.swift */; };
+		C3B34DD822910D5D009B14B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3B34DD722910D5D009B14B1 /* GoogleService-Info.plist */; };
+		C3B34DDB22910E97009B14B1 /* AppProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B34DDA22910E97009B14B1 /* AppProvider.swift */; };
+		C3B34DDD229110EA009B14B1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B34DDC229110EA009B14B1 /* User.swift */; };
+		C3B34DE122912C40009B14B1 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B34DE022912C40009B14B1 /* Location.swift */; };
+		C3B34DE322912F81009B14B1 /* Promo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B34DE222912F81009B14B1 /* Promo.swift */; };
+		C3B34DE722917642009B14B1 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = C3B34DE622917642009B14B1 /* style.json */; };
+		C3B34DEC22918378009B14B1 /* font.otf in Resources */ = {isa = PBXBuildFile; fileRef = C3B34DE822918377009B14B1 /* font.otf */; };
+		C3B34DED22918378009B14B1 /* NeutraText-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = C3B34DE922918377009B14B1 /* NeutraText-Book.otf */; };
+		C3B34DEE22918378009B14B1 /* Neutra Text Bold Italic Alt.otf in Resources */ = {isa = PBXBuildFile; fileRef = C3B34DEA22918377009B14B1 /* Neutra Text Bold Italic Alt.otf */; };
+		C3B34DEF22918378009B14B1 /* NeutraText-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C3B34DEB22918378009B14B1 /* NeutraText-BookItalic.otf */; };
+		C61180E82C9839FB662C0310 /* Pods_uberHackTeam4AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B74110815DDA656193BE9E76 /* Pods_uberHackTeam4AppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3B34DB82290F944009B14B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3B34D9B2290F943009B14B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3B34DA22290F943009B14B1;
+			remoteInfo = uberHackTeam4App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D509580C1690436EBD3BCB1 /* Pods-uberHackTeam4App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uberHackTeam4App.release.xcconfig"; path = "Pods/Target Support Files/Pods-uberHackTeam4App/Pods-uberHackTeam4App.release.xcconfig"; sourceTree = "<group>"; };
+		8C417FA367889A2A0DEF0784 /* Pods-uberHackTeam4AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uberHackTeam4AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-uberHackTeam4AppTests/Pods-uberHackTeam4AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		97605FCB06DAA7C9176F46C2 /* Pods-uberHackTeam4AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uberHackTeam4AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-uberHackTeam4AppTests/Pods-uberHackTeam4AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B74110815DDA656193BE9E76 /* Pods_uberHackTeam4AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uberHackTeam4AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B34DA32290F943009B14B1 /* uberHackTeam4App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uberHackTeam4App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B34DA62290F943009B14B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3B34DAB2290F943009B14B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3B34DAD2290F944009B14B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3B34DB02290F944009B14B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3B34DB22290F944009B14B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3B34DB72290F944009B14B1 /* uberHackTeam4AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uberHackTeam4AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B34DBB2290F944009B14B1 /* uberHackTeam4AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uberHackTeam4AppTests.swift; sourceTree = "<group>"; };
+		C3B34DBD2290F944009B14B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3B34DC7229106D6009B14B1 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C3B34DCD229107F5009B14B1 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		C3B34DCF22910806009B14B1 /* DoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneViewController.swift; sourceTree = "<group>"; };
+		C3B34DD522910B77009B14B1 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		C3B34DD722910D5D009B14B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C3B34DDA22910E97009B14B1 /* AppProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppProvider.swift; sourceTree = "<group>"; };
+		C3B34DDC229110EA009B14B1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C3B34DE022912C40009B14B1 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C3B34DE222912F81009B14B1 /* Promo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promo.swift; sourceTree = "<group>"; };
+		C3B34DE622917642009B14B1 /* style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
+		C3B34DE822918377009B14B1 /* font.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = font.otf; path = ../font.otf; sourceTree = "<group>"; };
+		C3B34DE922918377009B14B1 /* NeutraText-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-Book.otf"; path = "../NeutraText-Book.otf"; sourceTree = "<group>"; };
+		C3B34DEA22918377009B14B1 /* Neutra Text Bold Italic Alt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Neutra Text Bold Italic Alt.otf"; path = "../Neutra Text Bold Italic Alt.otf"; sourceTree = "<group>"; };
+		C3B34DEB22918378009B14B1 /* NeutraText-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-BookItalic.otf"; path = "../NeutraText-BookItalic.otf"; sourceTree = "<group>"; };
+		D1A05ABF97FA508D30A21144 /* Pods-uberHackTeam4App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uberHackTeam4App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-uberHackTeam4App/Pods-uberHackTeam4App.debug.xcconfig"; sourceTree = "<group>"; };
+		E32FC7D9032BB56659CC4D88 /* Pods_uberHackTeam4App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uberHackTeam4App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3B34DA02290F943009B14B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B052162A62B0CD169A8D20E2 /* Pods_uberHackTeam4App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B34DB42290F944009B14B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61180E82C9839FB662C0310 /* Pods_uberHackTeam4AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		137CD98A4D9430F553C275D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1A05ABF97FA508D30A21144 /* Pods-uberHackTeam4App.debug.xcconfig */,
+				7D509580C1690436EBD3BCB1 /* Pods-uberHackTeam4App.release.xcconfig */,
+				8C417FA367889A2A0DEF0784 /* Pods-uberHackTeam4AppTests.debug.xcconfig */,
+				97605FCB06DAA7C9176F46C2 /* Pods-uberHackTeam4AppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3B34D9A2290F943009B14B1 = {
+			isa = PBXGroup;
+			children = (
+				C3B34DA52290F943009B14B1 /* uberHackTeam4App */,
+				C3B34DBA2290F944009B14B1 /* uberHackTeam4AppTests */,
+				C3B34DA42290F943009B14B1 /* Products */,
+				137CD98A4D9430F553C275D7 /* Pods */,
+				CE7AB7E6C305A2BCA1DED07F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C3B34DA42290F943009B14B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3B34DA32290F943009B14B1 /* uberHackTeam4App.app */,
+				C3B34DB72290F944009B14B1 /* uberHackTeam4AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3B34DA52290F943009B14B1 /* uberHackTeam4App */ = {
+			isa = PBXGroup;
+			children = (
+				C3B34DF022918381009B14B1 /* Fonts */,
+				C3C1CC382291B61300A1B0B0 /* Resources */,
+				C3B34DD922910E89009B14B1 /* Services */,
+				C3B34DCC229107C5009B14B1 /* Controller */,
+				C3B34DCB229107BE009B14B1 /* Model */,
+				C3B34DC622910689009B14B1 /* View */,
+				C3B34DAD2290F944009B14B1 /* Assets.xcassets */,
+				C3B34DAF2290F944009B14B1 /* LaunchScreen.storyboard */,
+				C3B34DB22290F944009B14B1 /* Info.plist */,
+			);
+			path = uberHackTeam4App;
+			sourceTree = "<group>";
+		};
+		C3B34DBA2290F944009B14B1 /* uberHackTeam4AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3B34DBB2290F944009B14B1 /* uberHackTeam4AppTests.swift */,
+				C3B34DBD2290F944009B14B1 /* Info.plist */,
+			);
+			path = uberHackTeam4AppTests;
+			sourceTree = "<group>";
+		};
+		C3B34DC622910689009B14B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3B34DAA2290F943009B14B1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C3B34DCB229107BE009B14B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3B34DDC229110EA009B14B1 /* User.swift */,
+				C3B34DE022912C40009B14B1 /* Location.swift */,
+				C3B34DE222912F81009B14B1 /* Promo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C3B34DCC229107C5009B14B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C3B34DA62290F943009B14B1 /* AppDelegate.swift */,
+				C3B34DC7229106D6009B14B1 /* MapViewController.swift */,
+				C3B34DCD229107F5009B14B1 /* ShopViewController.swift */,
+				C3B34DCF22910806009B14B1 /* DoneViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C3B34DD922910E89009B14B1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C3B34DDA22910E97009B14B1 /* AppProvider.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C3B34DF022918381009B14B1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C3B34DE822918377009B14B1 /* font.otf */,
+				C3B34DEA22918377009B14B1 /* Neutra Text Bold Italic Alt.otf */,
+				C3B34DE922918377009B14B1 /* NeutraText-Book.otf */,
+				C3B34DEB22918378009B14B1 /* NeutraText-BookItalic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C3C1CC382291B61300A1B0B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3B34DE622917642009B14B1 /* style.json */,
+				C3B34DD722910D5D009B14B1 /* GoogleService-Info.plist */,
+				C3B34DD522910B77009B14B1 /* Enums.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE7AB7E6C305A2BCA1DED07F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E32FC7D9032BB56659CC4D88 /* Pods_uberHackTeam4App.framework */,
+				B74110815DDA656193BE9E76 /* Pods_uberHackTeam4AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3B34DA22290F943009B14B1 /* uberHackTeam4App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B34DC02290F944009B14B1 /* Build configuration list for PBXNativeTarget "uberHackTeam4App" */;
+			buildPhases = (
+				DC03FF9150F0545C626F8B2D /* [CP] Check Pods Manifest.lock */,
+				C3B34D9F2290F943009B14B1 /* Sources */,
+				C3B34DA02290F943009B14B1 /* Frameworks */,
+				C3B34DA12290F943009B14B1 /* Resources */,
+				F632C76F571A09F0C39CD69B /* [CP] Embed Pods Frameworks */,
+				F0628E127FCE71DCFDE2E23D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uberHackTeam4App;
+			productName = uberHackTeam4App;
+			productReference = C3B34DA32290F943009B14B1 /* uberHackTeam4App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3B34DB62290F944009B14B1 /* uberHackTeam4AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B34DC32290F944009B14B1 /* Build configuration list for PBXNativeTarget "uberHackTeam4AppTests" */;
+			buildPhases = (
+				CBEE9C357C09743AC07487FE /* [CP] Check Pods Manifest.lock */,
+				C3B34DB32290F944009B14B1 /* Sources */,
+				C3B34DB42290F944009B14B1 /* Frameworks */,
+				C3B34DB52290F944009B14B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3B34DB92290F944009B14B1 /* PBXTargetDependency */,
+			);
+			name = uberHackTeam4AppTests;
+			productName = uberHackTeam4AppTests;
+			productReference = C3B34DB72290F944009B14B1 /* uberHackTeam4AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3B34D9B2290F943009B14B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Atila Costa";
+				TargetAttributes = {
+					C3B34DA22290F943009B14B1 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					C3B34DB62290F944009B14B1 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = C3B34DA22290F943009B14B1;
+					};
+				};
+			};
+			buildConfigurationList = C3B34D9E2290F943009B14B1 /* Build configuration list for PBXProject "uberHackTeam4App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3B34D9A2290F943009B14B1;
+			productRefGroup = C3B34DA42290F943009B14B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3B34DA22290F943009B14B1 /* uberHackTeam4App */,
+				C3B34DB62290F944009B14B1 /* uberHackTeam4AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3B34DA12290F943009B14B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B34DB12290F944009B14B1 /* LaunchScreen.storyboard in Resources */,
+				C3B34DD822910D5D009B14B1 /* GoogleService-Info.plist in Resources */,
+				C3B34DEE22918378009B14B1 /* Neutra Text Bold Italic Alt.otf in Resources */,
+				C3B34DAE2290F944009B14B1 /* Assets.xcassets in Resources */,
+				C3B34DE722917642009B14B1 /* style.json in Resources */,
+				C3B34DED22918378009B14B1 /* NeutraText-Book.otf in Resources */,
+				C3B34DEC22918378009B14B1 /* font.otf in Resources */,
+				C3B34DEF22918378009B14B1 /* NeutraText-BookItalic.otf in Resources */,
+				C3B34DAC2290F943009B14B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B34DB52290F944009B14B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CBEE9C357C09743AC07487FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-uberHackTeam4AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC03FF9150F0545C626F8B2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-uberHackTeam4App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0628E127FCE71DCFDE2E23D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-uberHackTeam4App/Pods-uberHackTeam4App-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-uberHackTeam4App/Pods-uberHackTeam4App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F632C76F571A09F0C39CD69B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-uberHackTeam4App/Pods-uberHackTeam4App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/CBFlashyTabBarController/CBFlashyTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/QRCodeReader.swift/QRCodeReader.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/TransitionButton/TransitionButton.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CBFlashyTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCodeReader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TransitionButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-uberHackTeam4App/Pods-uberHackTeam4App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3B34D9F2290F943009B14B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B34DE122912C40009B14B1 /* Location.swift in Sources */,
+				C3B34DE322912F81009B14B1 /* Promo.swift in Sources */,
+				C3B34DC8229106D6009B14B1 /* MapViewController.swift in Sources */,
+				C3B34DCE229107F5009B14B1 /* ShopViewController.swift in Sources */,
+				C3B34DDB22910E97009B14B1 /* AppProvider.swift in Sources */,
+				C3B34DD022910806009B14B1 /* DoneViewController.swift in Sources */,
+				C3B34DD622910B77009B14B1 /* Enums.swift in Sources */,
+				C3B34DDD229110EA009B14B1 /* User.swift in Sources */,
+				C3B34DA72290F943009B14B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B34DB32290F944009B14B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B34DBC2290F944009B14B1 /* uberHackTeam4AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3B34DB92290F944009B14B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3B34DA22290F943009B14B1 /* uberHackTeam4App */;
+			targetProxy = C3B34DB82290F944009B14B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3B34DAA2290F943009B14B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3B34DAB2290F943009B14B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3B34DAF2290F944009B14B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3B34DB02290F944009B14B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3B34DBE2290F944009B14B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3B34DBF2290F944009B14B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3B34DC12290F944009B14B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1A05ABF97FA508D30A21144 /* Pods-uberHackTeam4App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E7CT5XA52M;
+				INFOPLIST_FILE = uberHackTeam4App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atilacosta.uberHackTeam4App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C3B34DC22290F944009B14B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D509580C1690436EBD3BCB1 /* Pods-uberHackTeam4App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E7CT5XA52M;
+				INFOPLIST_FILE = uberHackTeam4App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atilacosta.uberHackTeam4App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C3B34DC42290F944009B14B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C417FA367889A2A0DEF0784 /* Pods-uberHackTeam4AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E7CT5XA52M;
+				INFOPLIST_FILE = uberHackTeam4AppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atilacosta.uberHackTeam4AppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uberHackTeam4App.app/uberHackTeam4App";
+			};
+			name = Debug;
+		};
+		C3B34DC52290F944009B14B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97605FCB06DAA7C9176F46C2 /* Pods-uberHackTeam4AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E7CT5XA52M;
+				INFOPLIST_FILE = uberHackTeam4AppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atilacosta.uberHackTeam4AppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uberHackTeam4App.app/uberHackTeam4App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3B34D9E2290F943009B14B1 /* Build configuration list for PBXProject "uberHackTeam4App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B34DBE2290F944009B14B1 /* Debug */,
+				C3B34DBF2290F944009B14B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3B34DC02290F944009B14B1 /* Build configuration list for PBXNativeTarget "uberHackTeam4App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B34DC12290F944009B14B1 /* Debug */,
+				C3B34DC22290F944009B14B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3B34DC32290F944009B14B1 /* Build configuration list for PBXNativeTarget "uberHackTeam4AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B34DC42290F944009B14B1 /* Debug */,
+				C3B34DC52290F944009B14B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3B34D9B2290F943009B14B1 /* Project object */;
+}
